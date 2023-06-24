@@ -1,6 +1,1 @@
-[
-  {
-    "name": "mojito",
-    "ingredients": ["ice", "soda", "mint"]
-  }
-]
+[{"name": "mojito", "ingredients": ["ice", "soda", "mint"]}, {"name": "unnamed", "ingredients": ["mint", "ice", "soda"]}]

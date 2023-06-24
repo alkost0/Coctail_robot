@@ -16,7 +16,7 @@ class Raf9:
                 current_ing = self.choose_ingredients()
                 chose_cocktail = self.find_cocktail(current_ing)
                 if chose_cocktail is None:
-                    self.save_cocktail()
+                    self.save_cocktail(current_ing)
                 else:
                     print(f'Вы выбрали {chose_cocktail} коктейль')
             else:
@@ -24,7 +24,7 @@ class Raf9:
 
     def __help_text(self):
         print('Доступны команды:')
-        print('1: выбрать ингрдиенты')
+        print('1: выбрать ингредиенты')
         print('0: выход')
 
     def save_cocktail(self, current_ings):
